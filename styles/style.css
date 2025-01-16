@@ -31,6 +31,12 @@
     border-radius: 8px;
     border: none;
 }
+section>div{
+    margin-top: 85px;
+}
+.margin-left{
+    margin-left: 73px;
+}
 
 
 /* header styles */
@@ -75,6 +81,19 @@
     font-size: 4rem;
 }
 
+/* team part styles */
+.team-container{
+    max-width: 1318px;
+    margin: 0 auto;
+}
+.team-pic-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.align-center{
+    align-items: center;
+}
 /* responsive media query */
 @media screen and (max-width: 576px) {
     .navbar,.nav-link{
