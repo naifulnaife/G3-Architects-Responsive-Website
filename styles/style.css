@@ -222,15 +222,19 @@ section>div{
     }
     #experience-badge{
         margin-top: 20px;
-        margin-left: 10px;
+        margin-left: 2px;
     }
     
 
     /* some facts */
     .facts-container{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         justify-content: center;
         gap: 24px;
+        
+    }
+    .fact-card{
+        margin:0 auto;
     }
     .sponsor-companies{
         justify-items:center;
@@ -251,6 +255,7 @@ section>div{
     .quick-list-features{
         margin: 20px auto;
     }
+    
     /* sponsor companies related */
     .sponsor-companies{
         justify-items:center;
