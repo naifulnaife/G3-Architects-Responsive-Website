@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-
+/* shared styles */
 .work-sans-font {
   font-family: "Work Sans", serif;
   font-optical-sizing: auto;
@@ -36,6 +36,9 @@ section>div{
 }
 .margin-left{
     margin-left: 73px;
+}
+.quick-list-features{
+    font-size: 3rem;
 }
 
 
@@ -94,9 +97,42 @@ section>div{
 .align-center{
     align-items: center;
 }
+.features-color{
+    color: rgba(255, 144, 14, 1);
+}
 /* responsive media query */
 @media screen and (max-width: 576px) {
     .navbar,.nav-link{
         flex-direction: column;
     }
+
+    /* team-page */
+
+    .team-container{
+        display: flex;
+        flex-direction: column;
+    }
+    img{
+        width: 100%;
+    }
+    .margin-left{
+        margin-left: 20px;
+    }
+
+}
+
+/* medium size device */
+
+@media screen and (min-width: 576px) and (max-width: 992px){
+    .team-container{
+        display: flex;
+        flex-direction: column;
+    }
+    img{
+        width: 100%;
+    }
+    .quick-list-features{
+        margin: 20px auto;
+    }
+    
 }
